@@ -1,0 +1,2 @@
+module top(input wire clk,rst_n,rx_clk,rx_ctl,sw_spectrum,input wire [3:0] rxd,output wire tx_clk,tx_ctl,output wire [3:0] txd,inout wire mdio,mdc,output wire [5:0] seg_sel,output wire [7:0] seg_data);
+image_return_test #(.BOARD_ID(2)) u_link(.clk(clk),.rst_n(rst_n),.sw_spectrum(sw_spectrum),.rx_clk(rx_clk),.rx_ctl(rx_ctl),.rxd(rxd),.tx_clk(tx_clk),.tx_ctl(tx_ctl),.txd(txd),.mdio(mdio),.mdc(mdc),.sd_ncs(),.sd_dclk(),.sd_mosi(),.sd_miso(1'b1),.seg_sel(seg_sel),.seg_data(seg_data));endmodule

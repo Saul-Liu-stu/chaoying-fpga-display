@@ -1,0 +1,5 @@
+set_false_path -to [get_regs {sd_card_bmp_m0/tx_epoch_s0[*] sd_card_bmp_m0/rx_epoch_s0[*] sd_card_bmp_m0/recovery_mute_sync[0] sd_card_bmp_m0/u_wire/control_req_sync[0] sd_card_bmp_m0/u_wire/control_ack_sync[0]}]
+set_max_delay 20 -datapath_only -from [get_regs {sd_card_bmp_m0/u_wire/control_hold[*]}] -to [get_regs {sd_card_bmp_m0/u_wire/control_info[*]}]
+set_false_path -hold -from [get_regs {sd_card_bmp_m0/u_wire/control_hold[*]}] -to [get_regs {sd_card_bmp_m0/u_wire/control_info[*]}]
+set_false_path -through [get_nets {u_startup_reset/hard_reset_request}]
+set_false_path -through [get_nets {sd_card_bmp_m0/u_rx_hard_reset/async_rst}]

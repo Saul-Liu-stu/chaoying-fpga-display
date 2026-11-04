@@ -1,1 +1,14 @@
-# chaoying-fpga-display
+# 潮映——手办视听展示终端
+
+双 FPGA 视听展示终端工程。
+
+## FPGA 工程
+
+- [A 板工程](A/)：负责 TF 卡物理访问、SDRAM 四帧缓存、图文合成和 HDMI 音视频输出。
+- [B 板工程](B/)：负责 FAT32、BMP/WAV 解析、等比例双线性缩放和场景调度。
+
+工程打开及构建方式见 [A 板说明](A/README.txt) 和 [B 板说明](B/README.txt)。
+
+## 电脑端素材工具
+
+Qt 便携版素材工具可在本仓库的 Releases 页面下载。

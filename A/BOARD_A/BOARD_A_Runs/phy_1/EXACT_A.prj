@@ -1,0 +1,581 @@
+<Project Version="3" Minor="2" RunTime="2026-09-30T17:35:09">
+    <Project_Created_Time />
+    <TD_Version>6.2.168116</TD_Version>
+    <Name>BOARD_A</Name>
+    <HardWare>
+        <Family>EG4</Family>
+        <Device>EG4S20BG256</Device>
+        <Speed />
+    </HardWare>
+    <Source_Files>
+        <Verilog>
+            <File Path="../../../source/video/hdl_source/I2S_receiver.v">
+                <FileInfo>
+                    <Attr Name="UsedInSyn" Val="true" />
+                    <Attr Name="UsedInP&R" Val="true" />
+                    <Attr Name="BelongTo" Val="design_1" />
+                    <Attr Name="CompileOrder" Val="3" />
+                <Attr Name="AutoExcluded" Val="false" /></FileInfo>
+            </File>
+            <File Path="../../../source/video/hdl_source/audio_arc_calculate.v">
+                <FileInfo>
+                    <Attr Name="UsedInSyn" Val="true" />
+                    <Attr Name="UsedInP&R" Val="true" />
+                    <Attr Name="BelongTo" Val="design_1" />
+                    <Attr Name="CompileOrder" Val="4" />
+                <Attr Name="AutoExcluded" Val="false" /></FileInfo>
+            </File>
+            <File Path="../../../source/video/hdl_source/hdmi_phy_warpper.v">
+                <FileInfo>
+                    <Attr Name="UsedInSyn" Val="true" />
+                    <Attr Name="UsedInP&R" Val="true" />
+                    <Attr Name="BelongTo" Val="design_1" />
+                    <Attr Name="CompileOrder" Val="5" />
+                <Attr Name="AutoExcluded" Val="false" /></FileInfo>
+            </File>
+            <File Path="../../../source/video/hdl_source/lane_lvds_10_1.v">
+                <FileInfo>
+                    <Attr Name="UsedInSyn" Val="true" />
+                    <Attr Name="UsedInP&R" Val="true" />
+                    <Attr Name="BelongTo" Val="design_1" />
+                    <Attr Name="CompileOrder" Val="6" />
+                <Attr Name="AutoExcluded" Val="false" /></FileInfo>
+            </File>
+            <File Path="../../../source/video/hdl_source/hdmi1.4b_transmitter_core/hdmi_1_4b_transmitter_core_wrapper.enc.v">
+                <FileInfo>
+                    <Attr Name="UsedInSyn" Val="true" />
+                    <Attr Name="UsedInP&R" Val="true" />
+                    <Attr Name="BelongTo" Val="design_1" />
+                    <Attr Name="CompileOrder" Val="8" />
+                <Attr Name="AutoExcluded" Val="false" /></FileInfo>
+            </File>
+            <File Path="../../../source/video/hdl_source/top_tf_hdmi_audio.v">
+                <FileInfo>
+                    <Attr Name="UsedInSyn" Val="true" />
+                    <Attr Name="UsedInP&R" Val="true" />
+                    <Attr Name="BelongTo" Val="design_1" />
+                    <Attr Name="CompileOrder" Val="14" />
+                <Attr Name="AutoExcluded" Val="false" /></FileInfo>
+            </File>
+            <File Path="../../../source/video/hdl_source/SD/color_bar.v">
+                <FileInfo>
+                    <Attr Name="UsedInSyn" Val="true" />
+                    <Attr Name="UsedInP&R" Val="true" />
+                    <Attr Name="BelongTo" Val="design_1" />
+                    <Attr Name="CompileOrder" Val="21" />
+                <Attr Name="AutoExcluded" Val="false" /></FileInfo>
+            </File>
+            <File Path="../../../source/video/hdl_source/SD/frame_fifo_read.v">
+                <FileInfo>
+                    <Attr Name="UsedInSyn" Val="true" />
+                    <Attr Name="UsedInP&R" Val="true" />
+                    <Attr Name="BelongTo" Val="design_1" />
+                    <Attr Name="CompileOrder" Val="22" />
+                <Attr Name="AutoExcluded" Val="false" /></FileInfo>
+            </File>
+            <File Path="../../../source/video/hdl_source/SD/frame_fifo_write.v">
+                <FileInfo>
+                    <Attr Name="UsedInSyn" Val="true" />
+                    <Attr Name="UsedInP&R" Val="true" />
+                    <Attr Name="BelongTo" Val="design_1" />
+                    <Attr Name="CompileOrder" Val="23" />
+                <Attr Name="AutoExcluded" Val="false" /></FileInfo>
+            </File>
+            <File Path="../../../source/video/hdl_source/SD/frame_read_write.v">
+                <FileInfo>
+                    <Attr Name="UsedInSyn" Val="true" />
+                    <Attr Name="UsedInP&R" Val="true" />
+                    <Attr Name="BelongTo" Val="design_1" />
+                    <Attr Name="CompileOrder" Val="24" />
+                <Attr Name="AutoExcluded" Val="false" /></FileInfo>
+            </File>
+            <File Path="../../../source/video/hdl_source/SD/sd_card_bmp.v">
+                <FileInfo>
+                    <Attr Name="UsedInSyn" Val="true" />
+                    <Attr Name="UsedInP&R" Val="true" />
+                    <Attr Name="BelongTo" Val="design_1" />
+                    <Attr Name="CompileOrder" Val="25" />
+                <Attr Name="AutoExcluded" Val="false" /></FileInfo>
+            </File>
+            <File Path="../../../source/video/hdl_source/SD/seg_decoder.v">
+                <FileInfo>
+                    <Attr Name="UsedInSyn" Val="true" />
+                    <Attr Name="UsedInP&R" Val="true" />
+                    <Attr Name="BelongTo" Val="design_1" />
+                    <Attr Name="CompileOrder" Val="26" />
+                <Attr Name="AutoExcluded" Val="false" /></FileInfo>
+            </File>
+            <File Path="../../../source/video/hdl_source/SD/seg_scan.v">
+                <FileInfo>
+                    <Attr Name="UsedInSyn" Val="true" />
+                    <Attr Name="UsedInP&R" Val="true" />
+                    <Attr Name="BelongTo" Val="design_1" />
+                    <Attr Name="CompileOrder" Val="27" />
+                <Attr Name="AutoExcluded" Val="false" /></FileInfo>
+            </File>
+            <File Path="../../../source/video/hdl_source/SD/video_delay.v">
+                <FileInfo>
+                    <Attr Name="UsedInSyn" Val="true" />
+                    <Attr Name="UsedInP&R" Val="true" />
+                    <Attr Name="BelongTo" Val="design_1" />
+                    <Attr Name="CompileOrder" Val="29" />
+                <Attr Name="AutoExcluded" Val="false" /></FileInfo>
+            </File>
+            <File Path="../../../source/video/hdl_source/SD/video_timing_data.v">
+                <FileInfo>
+                    <Attr Name="UsedInSyn" Val="true" />
+                    <Attr Name="UsedInP&R" Val="true" />
+                    <Attr Name="BelongTo" Val="design_1" />
+                    <Attr Name="CompileOrder" Val="30" />
+                <Attr Name="AutoExcluded" Val="false" /></FileInfo>
+            </File>
+            <File Path="../../../source/video/hdl_source/hdmi_audio_tone_i2s_64fs.v">
+                <FileInfo>
+                    <Attr Name="UsedInSyn" Val="true" />
+                    <Attr Name="UsedInP&R" Val="true" />
+                    <Attr Name="BelongTo" Val="design_1" />
+                    <Attr Name="CompileOrder" Val="31" />
+                <Attr Name="AutoExcluded" Val="false" /></FileInfo>
+            </File>
+            <File Path="../../../source/video/hdl_source/startup_pulse.v">
+                <FileInfo>
+                    <Attr Name="UsedInSyn" Val="true" />
+                    <Attr Name="UsedInP&R" Val="true" />
+                    <Attr Name="BelongTo" Val="design_1" />
+                    <Attr Name="CompileOrder" Val="32" />
+                <Attr Name="AutoExcluded" Val="false" /></FileInfo>
+            </File>
+            <File Path="../../../source/video/hdl_source/video_rgb_to_axis_640x480.v">
+                <FileInfo>
+                    <Attr Name="UsedInSyn" Val="true" />
+                    <Attr Name="UsedInP&R" Val="true" />
+                    <Attr Name="BelongTo" Val="design_1" />
+                    <Attr Name="CompileOrder" Val="33" />
+                <Attr Name="AutoExcluded" Val="false" /></FileInfo>
+            </File>
+            <File Path="../../../source/video/hdl_source/SD/sd_card_cmd.v">
+                <FileInfo>
+                    <Attr Name="UsedInSyn" Val="true" />
+                    <Attr Name="UsedInP&R" Val="true" />
+                    <Attr Name="BelongTo" Val="design_1" />
+                    <Attr Name="CompileOrder" Val="34" />
+                <Attr Name="AutoExcluded" Val="false" /></FileInfo>
+            </File>
+            <File Path="../../../source/video/hdl_source/SD/sd_card_sec_read_write.v">
+                <FileInfo>
+                    <Attr Name="UsedInSyn" Val="true" />
+                    <Attr Name="UsedInP&R" Val="true" />
+                    <Attr Name="BelongTo" Val="design_1" />
+                    <Attr Name="CompileOrder" Val="35" />
+                <Attr Name="AutoExcluded" Val="false" /></FileInfo>
+            </File>
+            <File Path="../../../source/video/hdl_source/SD/sd_card_top.v">
+                <FileInfo>
+                    <Attr Name="UsedInSyn" Val="true" />
+                    <Attr Name="UsedInP&R" Val="true" />
+                    <Attr Name="BelongTo" Val="design_1" />
+                    <Attr Name="CompileOrder" Val="36" />
+                <Attr Name="AutoExcluded" Val="false" /></FileInfo>
+            </File>
+            <File Path="../../../source/video/hdl_source/SD/spi_master.v">
+                <FileInfo>
+                    <Attr Name="UsedInSyn" Val="true" />
+                    <Attr Name="UsedInP&R" Val="true" />
+                    <Attr Name="BelongTo" Val="design_1" />
+                    <Attr Name="CompileOrder" Val="37" />
+                <Attr Name="AutoExcluded" Val="false" /></FileInfo>
+            </File>
+            <File Path="../../../source/video/hdl_source/SD/sdram.v">
+                <FileInfo>
+                    <Attr Name="UsedInSyn" Val="true" />
+                    <Attr Name="UsedInP&R" Val="true" />
+                    <Attr Name="BelongTo" Val="design_1" />
+                    <Attr Name="CompileOrder" Val="38" />
+                <Attr Name="AutoExcluded" Val="false" /></FileInfo>
+            </File>
+            <File Path="../../../source/video/hdl_source/include/sdr_as_ram.enc.v">
+                <FileInfo>
+                    <Attr Name="UsedInSyn" Val="true" />
+                    <Attr Name="UsedInP&R" Val="true" />
+                    <Attr Name="BelongTo" Val="design_1" />
+                    <Attr Name="CompileOrder" Val="40" />
+                <Attr Name="AutoExcluded" Val="false" /></FileInfo>
+            </File>
+            <File Path="../../../source/video/hdl_source/include/sdr_init_ref.enc.v">
+                <FileInfo>
+                    <Attr Name="UsedInSyn" Val="true" />
+                    <Attr Name="UsedInP&R" Val="true" />
+                    <Attr Name="BelongTo" Val="design_1" />
+                    <Attr Name="CompileOrder" Val="41" />
+                <Attr Name="AutoExcluded" Val="false" /></FileInfo>
+            </File>
+            <File Path="../../../source/video/hdl_source/include/sdr_wrrd.enc.v">
+                <FileInfo>
+                    <Attr Name="UsedInSyn" Val="true" />
+                    <Attr Name="UsedInP&R" Val="true" />
+                    <Attr Name="BelongTo" Val="design_1" />
+                    <Attr Name="CompileOrder" Val="42" />
+                <Attr Name="AutoExcluded" Val="false" /></FileInfo>
+            </File>
+            <File Path="../../../source/video/hdl_source/startup_reset_controller.v">
+                <FileInfo>
+                    <Attr Name="UsedInSyn" Val="true" />
+                    <Attr Name="UsedInP&R" Val="true" />
+                    <Attr Name="BelongTo" Val="design_1" />
+                    <Attr Name="CompileOrder" Val="44" />
+                <Attr Name="AutoExcluded" Val="false" /></FileInfo>
+            </File>
+            <File Path="../../../source/video/hdl_source/media_start_controller.v">
+                <FileInfo>
+                    <Attr Name="UsedInSyn" Val="true" />
+                    <Attr Name="UsedInP&R" Val="true" />
+                    <Attr Name="BelongTo" Val="design_1" />
+                    <Attr Name="CompileOrder" Val="45" />
+                <Attr Name="AutoExcluded" Val="false" /></FileInfo>
+            </File>
+            <File Path="../../../source/video/hdl_source/regression_status.v">
+                <FileInfo>
+                    <Attr Name="UsedInSyn" Val="true" />
+                    <Attr Name="UsedInP&R" Val="true" />
+                    <Attr Name="BelongTo" Val="design_1" />
+                    <Attr Name="CompileOrder" Val="46" />
+                <Attr Name="AutoExcluded" Val="false" /></FileInfo>
+            </File>
+            <File Path="../../../source/video/hdl_source/SD/lights_sector_guard.v">
+                <FileInfo>
+                    <Attr Name="UsedInSyn" Val="true" />
+                    <Attr Name="UsedInP&R" Val="true" />
+                    <Attr Name="BelongTo" Val="design_1" />
+                    <Attr Name="CompileOrder" Val="47" />
+                <Attr Name="AutoExcluded" Val="false" /></FileInfo>
+            </File>
+            <File Path="../../../source/video/hdl_source/SD/lights_bmp_gate.v">
+                <FileInfo>
+                    <Attr Name="UsedInSyn" Val="true" />
+                    <Attr Name="UsedInP&R" Val="true" />
+                    <Attr Name="BelongTo" Val="design_1" />
+                    <Attr Name="CompileOrder" Val="48" />
+                <Attr Name="AutoExcluded" Val="false" /></FileInfo>
+            </File>
+            <File Path="../../../source/video/hdl_source/SD/lights_fat32_media.v">
+                <FileInfo>
+                    <Attr Name="UsedInSyn" Val="true" />
+                    <Attr Name="UsedInP&R" Val="true" />
+                    <Attr Name="BelongTo" Val="design_1" />
+                    <Attr Name="CompileOrder" Val="49" />
+                <Attr Name="AutoExcluded" Val="false" /></FileInfo>
+            </File>
+            <File Path="../../../source/video/hdl_source/SD/lights_playback_control.v">
+                <FileInfo>
+                    <Attr Name="UsedInSyn" Val="true" />
+                    <Attr Name="UsedInP&R" Val="true" />
+                    <Attr Name="BelongTo" Val="design_1" />
+                    <Attr Name="CompileOrder" Val="50" />
+                <Attr Name="AutoExcluded" Val="false" /></FileInfo>
+            </File>
+            <File Path="../../../source/video/hdl_source/SD/lights_scene_catalog.v">
+                <FileInfo>
+                    <Attr Name="UsedInSyn" Val="true" />
+                    <Attr Name="UsedInP&R" Val="true" />
+                    <Attr Name="BelongTo" Val="design_1" />
+                    <Attr Name="CompileOrder" Val="51" />
+                <Attr Name="AutoExcluded" Val="false" /></FileInfo>
+            </File>
+            <File Path="../../../source/video/hdl_source/SD/lights_scene_keys.v">
+                <FileInfo>
+                    <Attr Name="UsedInSyn" Val="true" />
+                    <Attr Name="UsedInP&R" Val="true" />
+                    <Attr Name="BelongTo" Val="design_1" />
+                    <Attr Name="CompileOrder" Val="52" />
+                <Attr Name="AutoExcluded" Val="false" /></FileInfo>
+            </File>
+            <File Path="../../../source/video/hdl_source/SD/lights_scene_control.v">
+                <FileInfo>
+                    <Attr Name="UsedInSyn" Val="true" />
+                    <Attr Name="UsedInP&R" Val="true" />
+                    <Attr Name="BelongTo" Val="design_1" />
+                    <Attr Name="CompileOrder" Val="53" />
+                <Attr Name="AutoExcluded" Val="false" /></FileInfo>
+            </File>
+            <File Path="../../../source/video/hdl_source/SD/lights_frame_present.v">
+                <FileInfo>
+                    <Attr Name="UsedInSyn" Val="true" />
+                    <Attr Name="UsedInP&R" Val="true" />
+                    <Attr Name="BelongTo" Val="design_1" />
+                    <Attr Name="CompileOrder" Val="54" />
+                <Attr Name="AutoExcluded" Val="false" /></FileInfo>
+            </File>
+            <File Path="../../../source/video/hdl_source/SD/lights_text_decode.v">
+                <FileInfo>
+                    <Attr Name="UsedInSyn" Val="true" />
+                    <Attr Name="UsedInP&R" Val="true" />
+                    <Attr Name="BelongTo" Val="design_1" />
+                    <Attr Name="CompileOrder" Val="82" />
+                <Attr Name="AutoExcluded" Val="false" /></FileInfo>
+            </File>
+            <File Path="../../../source/video/hdl_source/SD/lights_caption_bridge.v">
+                <FileInfo>
+                    <Attr Name="UsedInSyn" Val="true" />
+                    <Attr Name="UsedInP&R" Val="true" />
+                    <Attr Name="BelongTo" Val="design_1" />
+                    <Attr Name="CompileOrder" Val="83" />
+                <Attr Name="AutoExcluded" Val="false" /></FileInfo>
+            </File>
+            <File Path="../../../source/video/hdl_source/SD/lights_caption_overlay.v">
+                <FileInfo>
+                    <Attr Name="UsedInSyn" Val="true" />
+                    <Attr Name="UsedInP&R" Val="true" />
+                    <Attr Name="BelongTo" Val="design_1" />
+                    <Attr Name="CompileOrder" Val="84" />
+                <Attr Name="AutoExcluded" Val="false" /></FileInfo>
+            </File>
+        
+            <File Path="../../../source/video/hdl_source/SD/lights_font_file.v">
+                <FileInfo>
+                    <Attr Name="UsedInSyn" Val="true" />
+                    <Attr Name="UsedInP&R" Val="true" />
+                    <Attr Name="BelongTo" Val="design_1" />
+                    <Attr Name="CompileOrder" Val="85" />
+                <Attr Name="AutoExcluded" Val="false" /></FileInfo>
+            </File>
+        
+            <File Path="../../../source/video/hdl_source/SD/lights_font_cache.v">
+                <FileInfo>
+                    <Attr Name="UsedInSyn" Val="true" />
+                    <Attr Name="UsedInP&R" Val="true" />
+                    <Attr Name="BelongTo" Val="design_1" />
+                    <Attr Name="CompileOrder" Val="86" />
+                <Attr Name="AutoExcluded" Val="false" /></FileInfo>
+            </File>
+        
+            <File Path="../../../source/video/hdl_source/SD/lights_font_request_bridge.v">
+                <FileInfo>
+                    <Attr Name="UsedInSyn" Val="true" />
+                    <Attr Name="UsedInP&R" Val="true" />
+                    <Attr Name="BelongTo" Val="design_1" />
+                    <Attr Name="CompileOrder" Val="87" />
+                <Attr Name="AutoExcluded" Val="false" /></FileInfo>
+            </File>
+        <File Path="../../../source/video/hdl_source/SD/lights_file_span.v">
+                <FileInfo>
+                    <Attr Name="UsedInSyn" Val="true" />
+                    <Attr Name="UsedInP&R" Val="true" />
+                    <Attr Name="BelongTo" Val="design_1" />
+                    <Attr Name="CompileOrder" Val="88" />
+                <Attr Name="AutoExcluded" Val="false" /></FileInfo>
+            </File>
+        <File Path="../../../source/video/hdl_source/SD/lights_sector_scheduler.v">
+                <FileInfo>
+                    <Attr Name="UsedInSyn" Val="true" />
+                    <Attr Name="UsedInP&R" Val="true" />
+                    <Attr Name="BelongTo" Val="design_1" />
+                    <Attr Name="CompileOrder" Val="89" />
+                <Attr Name="AutoExcluded" Val="false" /></FileInfo>
+            </File>
+            <File Path="../../../source/video/hdl_source/SD/lights_frame_pool.v">
+                <FileInfo>
+                    <Attr Name="UsedInSyn" Val="true" />
+                    <Attr Name="UsedInP&R" Val="true" />
+                    <Attr Name="BelongTo" Val="design_1" />
+                    <Attr Name="CompileOrder" Val="90" />
+                <Attr Name="AutoExcluded" Val="false" /></FileInfo>
+            </File>
+            <File Path="../../../source/video/hdl_source/SD/lights_frame_mailbox.v">
+                <FileInfo>
+                    <Attr Name="UsedInSyn" Val="true" />
+                    <Attr Name="UsedInP&R" Val="true" />
+                    <Attr Name="BelongTo" Val="design_1" />
+                    <Attr Name="CompileOrder" Val="91" />
+                <Attr Name="AutoExcluded" Val="false" /></FileInfo>
+            </File>
+            <File Path="../../../source/video/hdl_source/SD/lights_fit_divider.v">
+                <FileInfo>
+                    <Attr Name="UsedInSyn" Val="true" />
+                    <Attr Name="UsedInP&R" Val="true" />
+                    <Attr Name="BelongTo" Val="design_1" />
+                    <Attr Name="CompileOrder" Val="92" />
+                <Attr Name="UsedInP&R" Val="true" /><Attr Name="AutoExcluded" Val="false" /></FileInfo>
+            </File>
+            <File Path="../../../source/video/hdl_source/SD/lights_image_fit.v">
+                <FileInfo>
+                    <Attr Name="UsedInSyn" Val="true" />
+                    <Attr Name="UsedInP&R" Val="true" />
+                    <Attr Name="BelongTo" Val="design_1" />
+                    <Attr Name="CompileOrder" Val="93" />
+                <Attr Name="UsedInP&R" Val="true" /><Attr Name="AutoExcluded" Val="false" /></FileInfo>
+            </File>
+            <File Path="../../../source/video/hdl_source/SD/lights_select_page.v">
+                <FileInfo>
+                    <Attr Name="UsedInSyn" Val="true" />
+                    <Attr Name="UsedInP&R" Val="true" />
+                    <Attr Name="BelongTo" Val="design_1" />
+                    <Attr Name="CompileOrder" Val="94" />
+                <Attr Name="UsedInP&R" Val="true" /><Attr Name="AutoExcluded" Val="false" /></FileInfo>
+            </File>
+            <File Path="../../../source/video/hdl_source/SD/lights_r4_backend.v">
+                <FileInfo>
+                    <Attr Name="UsedInSyn" Val="true" />
+                    <Attr Name="UsedInP&R" Val="true" />
+                    <Attr Name="BelongTo" Val="design_1" />
+                    <Attr Name="CompileOrder" Val="95" />
+                <Attr Name="UsedInP&R" Val="true" /><Attr Name="AutoExcluded" Val="false" /></FileInfo>
+            </File>
+            <File Path="../../../source/video/hdl_source/SD/lights_select_overlay.v">
+                <FileInfo>
+                    <Attr Name="UsedInSyn" Val="true" />
+                    <Attr Name="UsedInP&R" Val="true" />
+                    <Attr Name="BelongTo" Val="design_1" />
+                    <Attr Name="CompileOrder" Val="96" />
+                <Attr Name="UsedInP&R" Val="true" /><Attr Name="AutoExcluded" Val="false" /></FileInfo>
+            </File>
+            <File Path="../../../source/video/hdl_source/SD/lights_select_glyphs.v">
+                <FileInfo>
+                    <Attr Name="UsedInSyn" Val="true" />
+                    <Attr Name="UsedInP&R" Val="true" />
+                    <Attr Name="BelongTo" Val="design_1" />
+                    <Attr Name="CompileOrder" Val="97" />
+                <Attr Name="UsedInP&R" Val="true" /><Attr Name="AutoExcluded" Val="false" /></FileInfo>
+            </File>
+        <File Path="../../../workspace/dual_board_data_admission_factor_20261022/A_source/src/td_project/al_ip/PLL_HDMI_AUDIO.v">
+                <FileInfo>
+                    <Attr Name="UsedInSyn" Val="true" />
+                    <Attr Name="UsedInP&R" Val="true" />
+                    <Attr Name="BelongTo" Val="design_1" />
+                    <Attr Name="CompileOrder" Val="10" />
+                <Attr Name="AutoExcluded" Val="false" /></FileInfo>
+            </File>
+<File Path="../../../source/video/hdl_source/ip/afifo_16_32_256.v">
+                <FileInfo>
+                    <Attr Name="UsedInSyn" Val="true" />
+                    <Attr Name="UsedInP&R" Val="true" />
+                    <Attr Name="BelongTo" Val="design_1" />
+                    <Attr Name="CompileOrder" Val="15" />
+                <Attr Name="AutoExcluded" Val="false" /></FileInfo>
+            </File>
+<File Path="../../../source/video/hdl_source/ip/afifo_32_16_256.v">
+                <FileInfo>
+                    <Attr Name="UsedInSyn" Val="true" />
+                    <Attr Name="UsedInP&R" Val="true" />
+                    <Attr Name="BelongTo" Val="design_1" />
+                    <Attr Name="CompileOrder" Val="16" />
+                <Attr Name="AutoExcluded" Val="false" /></FileInfo>
+            </File>
+<File Path="../../../source/video/hdl_source/ip/sys_pll.v">
+                <FileInfo>
+                    <Attr Name="UsedInSyn" Val="true" />
+                    <Attr Name="UsedInP&R" Val="true" />
+                    <Attr Name="BelongTo" Val="design_1" />
+                    <Attr Name="CompileOrder" Val="17" />
+                <Attr Name="AutoExcluded" Val="false" /></FileInfo>
+            </File>
+<File Path="../../../source/video/hdl_source/ip/video_pll.v">
+                <FileInfo>
+                    <Attr Name="UsedInSyn" Val="true" />
+                    <Attr Name="UsedInP&R" Val="true" />
+                    <Attr Name="BelongTo" Val="design_1" />
+                    <Attr Name="CompileOrder" Val="18" />
+                <Attr Name="AutoExcluded" Val="false" /></FileInfo>
+            </File>
+            <File Path="../../../source/video/hdl_source/SD/lights_r5_frame_present.v">
+                <FileInfo>
+                    <Attr Name="AutoExcluded" Val="false" />
+                    <Attr Name="UsedInSyn" Val="true" />
+                    <Attr Name="UsedInP&R" Val="true" />
+                    <Attr Name="BelongTo" Val="design_1" />
+                    <Attr Name="CompileOrder" Val="100" />
+                </FileInfo>
+            </File>
+            <File Path="../../../source/video/hdl_source/SD/lights_r5_line_reader.v">
+                <FileInfo>
+                    <Attr Name="AutoExcluded" Val="false" />
+                    <Attr Name="UsedInSyn" Val="true" />
+                    <Attr Name="UsedInP&R" Val="true" />
+                    <Attr Name="BelongTo" Val="design_1" />
+                    <Attr Name="CompileOrder" Val="101" />
+                </FileInfo>
+            </File>
+            <File Path="../../../source/video/hdl_source/SD/lights_r5_motion.v">
+                <FileInfo>
+                    <Attr Name="AutoExcluded" Val="false" />
+                    <Attr Name="UsedInSyn" Val="true" />
+                    <Attr Name="UsedInP&R" Val="true" />
+                    <Attr Name="BelongTo" Val="design_1" />
+                    <Attr Name="CompileOrder" Val="102" />
+                </FileInfo>
+            </File>
+            <File Path="../../../source/video/hdl_source/SD/lights_r5_pixel_identity.v">
+                <FileInfo>
+                    <Attr Name="AutoExcluded" Val="false" />
+                    <Attr Name="UsedInSyn" Val="true" />
+                    <Attr Name="UsedInP&R" Val="true" />
+                    <Attr Name="BelongTo" Val="design_1" />
+                    <Attr Name="CompileOrder" Val="103" />
+                </FileInfo>
+            </File>
+        <File Path="../../../source/display/link_io.v"><FileInfo><Attr Name="UsedInSyn" Val="true" /><Attr Name="UsedInP&R" Val="true" /><Attr Name="BelongTo" Val="design_1" /><Attr Name="CompileOrder" Val="220" /><Attr Name="AutoExcluded" Val="false" /></FileInfo></File><File Path="../../../source/display/link_mdio.v"><FileInfo><Attr Name="UsedInSyn" Val="true" /><Attr Name="UsedInP&R" Val="true" /><Attr Name="BelongTo" Val="design_1" /><Attr Name="CompileOrder" Val="221" /><Attr Name="AutoExcluded" Val="false" /></FileInfo></File><File Path="../../../source/display/sector_wire_avpipe.v"><FileInfo><Attr Name="UsedInSyn" Val="true" /><Attr Name="UsedInP&R" Val="true" /><Attr Name="BelongTo" Val="design_1" /><Attr Name="CompileOrder" Val="222" /><Attr Name="AutoExcluded" Val="false" /></FileInfo></File><File Path="../../../source/display/sector_server.v"><FileInfo><Attr Name="UsedInSyn" Val="true" /><Attr Name="UsedInP&R" Val="true" /><Attr Name="BelongTo" Val="design_1" /><Attr Name="CompileOrder" Val="223" /><Attr Name="AutoExcluded" Val="false" /></FileInfo></File><File Path="../../../source/display/frame_receiver_scene.v"><FileInfo><Attr Name="UsedInSyn" Val="true" /><Attr Name="UsedInP&R" Val="true" /><Attr Name="BelongTo" Val="design_1" /><Attr Name="CompileOrder" Val="224" /><Attr Name="AutoExcluded" Val="false" /></FileInfo></File><File Path="../../../source/display/display_host_app.v"><FileInfo><Attr Name="UsedInSyn" Val="true" /><Attr Name="UsedInP&R" Val="true" /><Attr Name="BelongTo" Val="design_1" /><Attr Name="CompileOrder" Val="225" /><Attr Name="AutoExcluded" Val="false" /></FileInfo></File><File Path="../../../source/display/remote_display_proxy.v"><FileInfo><Attr Name="UsedInSyn" Val="true" /><Attr Name="UsedInP&R" Val="true" /><Attr Name="BelongTo" Val="design_1" /><Attr Name="CompileOrder" Val="226" /><Attr Name="AutoExcluded" Val="false" /></FileInfo></File><File Path="../../../source/display/control_host_scene.v"><FileInfo><Attr Name="UsedInSyn" Val="true" /><Attr Name="UsedInP&R" Val="true" /><Attr Name="BelongTo" Val="design_1" /><Attr Name="CompileOrder" Val="227" /><Attr Name="AutoExcluded" Val="false" /></FileInfo></File><File Path="../../../source/display/caption_host.v"><FileInfo><Attr Name="UsedInSyn" Val="true" /><Attr Name="UsedInP&R" Val="true" /><Attr Name="BelongTo" Val="design_1" /><Attr Name="CompileOrder" Val="228" /><Attr Name="AutoExcluded" Val="false" /></FileInfo></File><File Path="../../../source/display/scroll_cache.v"><FileInfo><Attr Name="UsedInSyn" Val="true" /><Attr Name="UsedInP&R" Val="true" /><Attr Name="BelongTo" Val="design_1" /><Attr Name="CompileOrder" Val="229" /><Attr Name="AutoExcluded" Val="false" /></FileInfo></File><File Path="../../../source/display/wav_config_receiver.v"><FileInfo><Attr Name="UsedInSyn" Val="true" /><Attr Name="UsedInP&R" Val="true" /><Attr Name="BelongTo" Val="design_1" /><Attr Name="CompileOrder" Val="230" /><Attr Name="AutoExcluded" Val="false" /></FileInfo></File><File Path="../../../source/display/wav_sd_arbiter.v"><FileInfo><Attr Name="UsedInSyn" Val="true" /><Attr Name="UsedInP&R" Val="true" /><Attr Name="BelongTo" Val="design_1" /><Attr Name="CompileOrder" Val="231" /><Attr Name="AutoExcluded" Val="false" /></FileInfo></File><File Path="../../../source/display/lights_r6_wav_player.v"><FileInfo><Attr Name="UsedInSyn" Val="true" /><Attr Name="UsedInP&R" Val="true" /><Attr Name="BelongTo" Val="design_1" /><Attr Name="CompileOrder" Val="232" /><Attr Name="AutoExcluded" Val="false" /></FileInfo></File><File Path="../../../source/display/lights_r6_file_reader.v"><FileInfo><Attr Name="UsedInSyn" Val="true" /><Attr Name="UsedInP&R" Val="true" /><Attr Name="BelongTo" Val="design_1" /><Attr Name="CompileOrder" Val="233" /><Attr Name="AutoExcluded" Val="false" /></FileInfo></File><File Path="../../../source/display/lights_r6_pcm_bridge.v"><FileInfo><Attr Name="UsedInSyn" Val="true" /><Attr Name="UsedInP&R" Val="true" /><Attr Name="BelongTo" Val="design_1" /><Attr Name="CompileOrder" Val="234" /><Attr Name="AutoExcluded" Val="false" /></FileInfo></File><File Path="../../../source/display/lights_audio_scope_overlay.v"><FileInfo><Attr Name="UsedInSyn" Val="true" /><Attr Name="UsedInP&R" Val="true" /><Attr Name="BelongTo" Val="design_1" /><Attr Name="CompileOrder" Val="200" /><Attr Name="AutoExcluded" Val="false" /></FileInfo></File>
+        <File Path="../../../source/display/lights_overlay_switches.v"><FileInfo><Attr Name="UsedInSyn" Val="true" /><Attr Name="UsedInP&R" Val="true" /><Attr Name="BelongTo" Val="design_1" /><Attr Name="CompileOrder" Val="201" /><Attr Name="AutoExcluded" Val="false" /></FileInfo></File>
+<File Path="../../../source/display/lights_settings_control.v"><FileInfo><Attr Name="UsedInSyn" Val="true" /><Attr Name="UsedInP&R" Val="true" /><Attr Name="BelongTo" Val="design_1" /><Attr Name="CompileOrder" Val="250" /><Attr Name="AutoExcluded" Val="false" /></FileInfo></File><File Path="../../../source/display/lights_picture_adjust.v"><FileInfo><Attr Name="UsedInSyn" Val="true" /><Attr Name="UsedInP&R" Val="true" /><Attr Name="BelongTo" Val="design_1" /><Attr Name="CompileOrder" Val="251" /><Attr Name="AutoExcluded" Val="false" /></FileInfo></File><File Path="../../../source/display/lights_volume.v"><FileInfo><Attr Name="UsedInSyn" Val="true" /><Attr Name="UsedInP&R" Val="true" /><Attr Name="BelongTo" Val="design_1" /><Attr Name="CompileOrder" Val="252" /><Attr Name="AutoExcluded" Val="false" /></FileInfo></File><File Path="../../../source/display/lights_settings_overlay.v"><FileInfo><Attr Name="UsedInSyn" Val="true" /><Attr Name="UsedInP&R" Val="true" /><Attr Name="BelongTo" Val="design_1" /><Attr Name="CompileOrder" Val="253" /><Attr Name="AutoExcluded" Val="false" /></FileInfo></File><File Path="../../../source/display/lights_direct_keys.v"><FileInfo><Attr Name="UsedInSyn" Val="true" /><Attr Name="UsedInP&R" Val="true" /><Attr Name="BelongTo" Val="design_1" /><Attr Name="CompileOrder" Val="260" /><Attr Name="AutoExcluded" Val="false" /></FileInfo></File><File Path="../../../source/display/lights_control_hints.v"><FileInfo><Attr Name="UsedInSyn" Val="true" /><Attr Name="UsedInP&R" Val="true" /><Attr Name="BelongTo" Val="design_1" /><Attr Name="CompileOrder" Val="261" /><Attr Name="AutoExcluded" Val="false" /></FileInfo></File><File Path="../../../source/display/pcm_packet_receiver.v">
+                <FileInfo>
+                    <Attr Name="UsedInSyn" Val="true" />
+                    <Attr Name="UsedInP&R" Val="true" />
+                    <Attr Name="BelongTo" Val="design_1" />
+                    <Attr Name="CompileOrder" Val="270" />
+                <Attr Name="AutoExcluded" Val="false" /></FileInfo>
+            </File><File Path="../../../source/display/cached_show_receiver.v"><FileInfo><Attr Name="UsedInSyn" Val="true"/><Attr Name="UsedInP&R" Val="true"/><Attr Name="BelongTo" Val="design_1"/><Attr Name="CompileOrder" Val="390"/><Attr Name="AutoExcluded" Val="false"/></FileInfo></File>
+<File Path="../../../source/display/lights_media_error_overlay.v"><FileInfo><Attr Name="UsedInSyn" Val="true"/><Attr Name="UsedInP&amp;R" Val="true"/><Attr Name="BelongTo" Val="design_1"/><Attr Name="CompileOrder" Val="401"/></FileInfo></File>
+<File Path="../../../source/display/lights_fft512.v"><FileInfo><Attr Name="UsedInSyn" Val="true"/><Attr Name="UsedInP&amp;R" Val="true"/><Attr Name="BelongTo" Val="design_1"/><Attr Name="CompileOrder" Val="402"/></FileInfo></File>
+<File Path="../../../source/display/lights_spectrum_overlay.v"><FileInfo><Attr Name="UsedInSyn" Val="true"/><Attr Name="UsedInP&amp;R" Val="true"/><Attr Name="BelongTo" Val="design_1"/><Attr Name="CompileOrder" Val="403"/></FileInfo></File>
+<File Path="../../../source/display/ui_style_receiver.v"><FileInfo><Attr Name="UsedInSyn" Val="true"/><Attr Name="UsedInP&R" Val="true"/><Attr Name="BelongTo" Val="design_1"/><Attr Name="CompileOrder" Val="500"/><Attr Name="AutoExcluded" Val="false"/></FileInfo></File>
+<File Path="../../../source/recovery/recovery_control.v"><FileInfo><Attr Name="UsedInSyn" Val="true"/><Attr Name="UsedInP&R" Val="true"/><Attr Name="BelongTo" Val="design_1"/><Attr Name="CompileOrder" Val="501"/><Attr Name="AutoExcluded" Val="false"/></FileInfo></File>
+        </Verilog>
+        <ADC_FILE>
+            <File Path="../../../source/video/constraints_source/pin.adc">
+                <FileInfo>
+                    <Attr Name="UsedInSyn" Val="true" />
+                    <Attr Name="UsedInP&R" Val="true" />
+                    <Attr Name="BelongTo" Val="constraint_1" />
+                    <Attr Name="CompileOrder" Val="2" />
+                <Attr Name="AutoExcluded" Val="false" /></FileInfo>
+            </File>
+        </ADC_FILE>
+        <SDC_FILE>
+            <File Path="../../../source/video/constraints_source/timing.sdc">
+                <FileInfo>
+                    <Attr Name="UsedInSyn" Val="true" />
+                    <Attr Name="UsedInP&R" Val="true" />
+                    <Attr Name="BelongTo" Val="constraint_1" />
+                    <Attr Name="CompileOrder" Val="1" />
+                <Attr Name="AutoExcluded" Val="false" /></FileInfo>
+            </File>
+        </SDC_FILE>
+        <CWC_FILE>
+            <File Path="../../../source/video/constraints_source/edid_debug.cwc">
+                <FileInfo>
+                    <Attr Name="UsedInSyn" Val="true" />
+                    <Attr Name="UsedInP&R" Val="true" />
+                    <Attr Name="BelongTo" Val="design_1" />
+                    <Attr Name="CompileOrder" Val="7" />
+                <Attr Name="AutoExcluded" Val="false" /></FileInfo>
+            </File>
+        </CWC_FILE>
+        
+    </Source_Files>
+    <FileSets>
+        <FileSet Name="design_1" Type="DesignFiles">
+        
+</FileSet>
+        <FileSet Name="constraint_1" Type="ConstrainFiles">
+        </FileSet>
+    </FileSets>
+    <TOP_MODULE>
+        <LABEL>top</LABEL>
+        <MODULE>top</MODULE>
+        <CREATEINDEX>user</CREATEINDEX>
+    </TOP_MODULE>
+    <Property>
+    </Property>
+    <Device_Settings>
+    </Device_Settings>
+    <Configurations>
+    </Configurations>
+</Project>

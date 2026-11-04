@@ -1,0 +1,6 @@
+set_max_delay 7.5 -datapath_only -from [get_regs {u_settings_overlay/u_resolution/request_toggle}] -to [get_regs {u_settings_overlay/u_resolution/request_sync[0]}]
+set_false_path -hold -from [get_regs {u_settings_overlay/u_resolution/request_toggle}] -to [get_regs {u_settings_overlay/u_resolution/request_sync[0]}]
+set_max_delay 7.5 -datapath_only -from [get_regs {u_settings_overlay/u_resolution/acknowledge}] -to [get_regs {u_settings_overlay/u_resolution/ack_sync[0]}]
+set_false_path -hold -from [get_regs {u_settings_overlay/u_resolution/acknowledge}] -to [get_regs {u_settings_overlay/u_resolution/ack_sync[0]}]
+set_max_delay 30.0 -datapath_only -from [get_regs {u_settings_overlay/u_resolution/payload_hold[*]}] -to [get_regs {u_settings_overlay/u_resolution/received_payload[*]}]
+set_false_path -hold -from [get_regs {u_settings_overlay/u_resolution/payload_hold[*]}] -to [get_regs {u_settings_overlay/u_resolution/received_payload[*]}]
